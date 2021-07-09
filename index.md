@@ -1,16 +1,17 @@
-﻿# Project Name/Title Goes Here
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+﻿# Image Recognition Using Raspberry Pi 
+In this project, I use Raspberry Pi and TensorFlow to train the computer to interpret images of common objects and classify them. After analyzing the image, the Raspberry Pi will output the subject of the image to the user, providing a range of possible outputs and the chance of the image being each of the listed possibilities. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Firstname Lastname | Current Highschool | Electrical Engineering | Incoming Senior
+| Advaith Modali | Archbishop Mitty High School | Computer Science/Electrical Engineering | Incoming Senior
 
-![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
+![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2020/05/facial-recognition-data-points-6.jpg)
+![Relevant Name](https://www.raspberrypi.org/homepage-9df4b/static/532b4c25752c4235d76cc41051baf9ab/16e7d/877fb653-7b43-4931-9cee-977a22571f65_3b%2BAngle%2B2%2Brefresh.jpg)
   
-# Final Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
+# First Milestone
+My first milestone was setting up the Raspberry Pi with the appropriate operating system and monitor, as well as writing the code in the terminal to complete basic image recognition of simple images. Using TensorFlow and Python, I was able to download all the necessary modules which contain files that carry out the process of image recognition. Following this, I trained the Pi with a simple image of a panda and it was able to produce a list of potential outputs of the animal which could be in the image, with the panda receiving the highest probability. However, the Raspberry Pi ran out of storage, so I continued the project on a Macbook. Towards the end of the peojct, I will transfer the model to the Pi, which will perform the classification. 
 
-[![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
+[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
 My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint.
